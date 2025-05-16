@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Bootstrap CSS -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+<!-- My CSS -->
+
+<link rel="stylesheet" href="style.css" />
+
+<!-- Font Awesome -->
+
+<script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+<!-- Google Fonts -->
+
+<link
+
+href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+
+rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+    body {
+        background-color: lightsalmon;
+        font-family: 'Baloo Tamma 2', cursive;
+    }
+
+    .navigation-link {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .navigation-link:hover {
+        color: #f8f9fa;
+        text-decoration: underline;
+    }
+
+    .container.navigation {
+        background-color: orange;
+        padding: 20px 0;
+    }
+    
+</style>
+    </head>
+    <body>
+        <div class="container navigation pt-3">
+            <div class="row">
+                <div class="col-6 d-flex justify-content-start aline-items-center">
+                    <i class=" fa-solid fa-code fa-2x fa-fw text-warning pb-3"></i>
+                    <h5 class="d-inline pl-2 text-white">Codingal</h5>
+                </div>
+                <div class="col-6 pt-2">
+                    <div class="row text-center p-0 dd-flex justify-content-end align-items-center">
+                        <div class="col-3">
+                <a href="#about" class="text-white navigation-link">About</a>
+                        </div>
+                        <div class="col-3">
+                <a href="#projects" class="text-white navigation-link">Projects</a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#social-media" class="text-white navigation-link">Social Media</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="https://github.com/Tawfiz/javascript.git" target="_blank" class="text-white navigation-link">Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
